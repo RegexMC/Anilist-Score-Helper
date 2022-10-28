@@ -257,7 +257,7 @@ export default function HomePage() {
 
 	return (
 		<>
-			<Modal opened={opened} onClose={() => setOpened(false)} title="Get user data">
+			<Modal opened={opened} onClose={() => null} title="Get user data">
 				<TextInput placeholder="Username" onChange={(e) => setUsername(e.target.value)} required />
 				<Group position="right" mt="md">
 					<Button disabled={disabled} onClick={() => fetchData()}>
