@@ -266,7 +266,9 @@ export default function HomePage() {
 				</Group>
 				<Text>
 					Note: This code is *very* fragile. To ensure it doesn't crash, pin at least two scores, with the top
-					most item being pinned. Anything below the lowest pin will not be assigned a score.
+					most item being pinned. Anything below the lowest pin will not be assigned a score. Once scores have
+					been generated, move around one of the entries to get the scores to update. Currently decimals can
+					not be entered (no idea why).
 				</Text>
 			</Modal>
 
